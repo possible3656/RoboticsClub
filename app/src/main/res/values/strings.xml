@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Splash screen with sign up and register</string>
+    <string name="lets_do_it">Lets do it</string>
+    <string name="motivate">Motivate</string>
+    <string name="email">  Email</string>
+    <string name="password">  Password</string>
+    <string name="log_in">Log in</string>
+    <string name="don_t_have_account_sign_up_here">Don\'t have account ? Sign up</string>
+    <string name="name">Name</string>
+    <string name="signup">Sign up</string>
+    <string name="already_have_account_sign_in">Already have account ? Sign in</string>
+
+</resources>
