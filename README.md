@@ -1,4 +1,26 @@
-# Splash_screen_with_sign_up_and_register
+# ROBOTICS CLUB APP
 
-simple ui for sign in and register 
-with splash screen added
+splash screen
+
+Login 
+
+Sign up
+
+Forgot password
+
+Drawer
+
+Notice
+
+Notification Support
+
+material look
+
+FireBase is used as backend
+
+
+future update:
+
+1:- find members and communicate with them 
+
+2:- auto Notification when club open and close
