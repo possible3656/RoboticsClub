@@ -4,5 +4,9 @@
     <color name="colorPrimaryDark">#03479C</color>
     <color name="colorAccent">#D81B60</color>
     <color name="textColour">#FFFFFF</color>
+    <color name="textColourhome">#B6B8BF</color>
+    <color name="homebackground">#393e48</color>
+    <color name="titleBackground">#FAD23A</color>
+
 
 </resources>

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Splash screen with sign up and register</string>
+    <string name="app_name">Robotics Club</string>
     <string name="lets_do_it">Lets do it</string>
     <string name="motivate">Motivate</string>
     <string name="email">  Email</string>
@@ -9,5 +9,40 @@
     <string name="name">Name</string>
     <string name="signup">Sign up</string>
     <string name="already_have_account_sign_in">Already have account ? Sign in</string>
+    <string name="get_on_board">Get on Board</string>
+    <string name="contact_number">Contact number</string>
+
+    <string name="create_your_profile">Create your profile :</string>
+
+    <string-array name="branchNames">
+
+        <item>Electrical</item>
+        <item>Electronics and communication</item>
+        <item>Electronics Instrumentation and Control</item>
+        <item>Computer science</item>
+        <item>mechanical</item>
+        <item>Civil</item>
+        <item>Information Technology</item>
+        <item>Petrochemical</item>
+        <item>Production and Industrial</item>
+    </string-array>
+
+    <string-array name="y">
+
+        <item>First Year</item>
+        <item>Second Year</item>
+        <item>Third Year</item>
+        <item>Fourth Year</item>
+        <item>Alumni</item>
+        <item>Teacher/professor</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="robotics_club">ROBOTICS CLUB</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="welcome_home">Welcome home,</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="notice">NOTICE</string>
 
 </resources>

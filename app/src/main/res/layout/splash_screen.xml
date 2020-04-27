@@ -1,31 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/homebackground"
     tools:context=".splashScreen"
-    android:background="@color/colorPrimary"
 
     >
 
-    <TextView
-        android:id="@+id/Motivatetxt"
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:fontFamily="@font/bad_script"
-        android:text="@string/motivate"
-        android:textColor="@color/textColour"
-
-        android:textSize="50sp" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/lets_do_it"
-        android:textColor="@color/textColour"
-        android:layout_below="@+id/Motivatetxt"
-        android:layout_centerInParent="true"
-        android:textSize="20sp"
-        />
-</RelativeLayout>
+        android:src="@drawable/roboclub"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

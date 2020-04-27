@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SignUp"
+    tools:context=".login_signup.SignUp"
 
     >
 
@@ -13,45 +13,43 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="fitXY"
-        android:src="@drawable/uimain"
+       android:src="@drawable/robotsigninmain"
         tools:layout_editor_absoluteX="-81dp"
         tools:layout_editor_absoluteY="0dp" />
-
-    <EditText
-        android:layout_width="300dp"
-        android:layout_height="50dp"
-        android:hint="@string/name"
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/get_on_board"
         android:textColor="@color/textColour"
-        android:inputType="textPersonName"
-        android:textColorHint="@color/textColour"
 
-        android:layout_marginTop="250dp"
+
+        android:textSize="35sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.227"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/getOnBoard"/>
 
-        android:id="@+id/editTextNameSU"
-
-        />
 
     <EditText
+        android:id="@+id/editTextEmailSU"
         android:layout_width="300dp"
+
         android:layout_height="50dp"
 
-        app:layout_constraintEnd_toEndOf="parent"
 
+        android:layout_marginTop="200dp"
 
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNameSU"
-        android:layout_marginTop="50dp"
         android:hint="@string/email"
-        android:textColorHint="@color/textColour"
-        android:textColor="@color/textColour"
         android:inputType="textEmailAddress"
-        android:id="@+id/editTextEmailSU"
+        android:textColor="@color/textColour"
+        android:textColorHint="@color/textColour"
 
-        />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <EditText
         android:layout_width="300dp"
         android:layout_height="50dp"
@@ -61,7 +59,7 @@
 
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/editTextEmailSU"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="20dp"
         android:hint="@string/password"
         android:textColorHint="@color/textColour"
         android:textColor="@color/textColour"
@@ -78,7 +76,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextPasswordSU"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="20dp"
         android:background="@android:color/transparent"
         android:textColor="@color/textColour"
         android:text="@string/signup"
@@ -96,7 +94,7 @@
 
 
         android:textColor="@color/colorAccent"
-        android:textSize="20sp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
 
         app:layout_constraintEnd_toEndOf="parent"
@@ -106,6 +104,17 @@
         android:id="@+id/textSignUp"
 
         />
+
+    <ProgressBar
+        android:id="@+id/progressbarsignup"
+        android:visibility="gone"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 

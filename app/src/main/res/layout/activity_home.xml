@@ -4,16 +4,56 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Home">
+    tools:context=".ui.Home"
+    android:background="@color/homebackground"
+    >
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="ROBOTICS CLUB"
+    android:textSize="18sp"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="5dp"
+    android:textColor="@color/textColourhome"
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="20sp"
-        android:text="Sign out"
-        android:layout_centerInParent="true"
-        android:onClick="SignOut"
-/>
+
+    />
+
+<ImageView
+    android:layout_width="20dp"
+    android:layout_height="20dp"
+    android:src="@drawable/bellmain"
+    android:layout_marginTop="5dp"
+    android:layout_alignParentEnd="true"
+    android:layout_marginEnd="10dp"
+    android:id="@+id/bellIcon"
+    />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/menuone"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="10dp"
+        android:id="@+id/menuIcon"
+
+        />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/menuIcon"
+        android:layout_marginTop="1dp"
+        android:id="@+id/MainContainer"
+        />
+    <FrameLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:id="@+id/drawerPressed"
+
+        />
+
+
+
 
 
 </RelativeLayout>
